@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF1EB03BD6CB63364E297355 /* Pods_MISS_Live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503361AA99CE03E27947E4E1 /* Pods_MISS_Live.framework */; };
 		D124B27025FB76FA00227E99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124B26F25FB76FA00227E99 /* AppDelegate.swift */; };
 		D124B27225FB76FA00227E99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124B27125FB76FA00227E99 /* SceneDelegate.swift */; };
-		D124B27425FB76FA00227E99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124B27325FB76FA00227E99 /* ContentView.swift */; };
+		D124B27425FB76FA00227E99 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124B27325FB76FA00227E99 /* TaskListView.swift */; };
 		D124B27625FB76FC00227E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D124B27525FB76FC00227E99 /* Assets.xcassets */; };
 		D124B27925FB76FC00227E99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D124B27825FB76FC00227E99 /* Preview Assets.xcassets */; };
 		D124B27C25FB76FC00227E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D124B27A25FB76FC00227E99 /* LaunchScreen.storyboard */; };
-		D124B28725FB76FC00227E99 /* MISS_LiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124B28625FB76FC00227E99 /* MISS_LiveTests.swift */; };
 		D124B29225FB76FC00227E99 /* MISS_LiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124B29125FB76FC00227E99 /* MISS_LiveUITests.swift */; };
+		D124B2A425FB774500227E99 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124B2A325FB774500227E99 /* Task.swift */; };
+		D18BD054260C713F006B6846 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D18BD053260C713E006B6846 /* GoogleService-Info.plist */; };
+		D1A6E07625FC900800FADE79 /* TaskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A6E07525FC900800FADE79 /* TaskCellViewModel.swift */; };
+		D1A6E0BD25FCBADD00FADE79 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A6E0BC25FCBADD00FADE79 /* TaskListViewModel.swift */; };
+		D1F16E1225FD9EB600F7C263 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F16E1125FD9EB600F7C263 /* TaskRepository.swift */; };
+		D1F16E1A25FDC72100F7C263 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F16E1925FDC72100F7C263 /* SignInWithAppleButton.swift */; };
+		D1F16E1F25FDC80100F7C263 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F16E1E25FDC80100F7C263 /* SignInView.swift */; };
+		D1F16EE725FDDAAC00F7C263 /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F16EE625FDDAAC00F7C263 /* SignInWithAppleCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +43,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		503361AA99CE03E27947E4E1 /* Pods_MISS_Live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MISS_Live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6678E12713B3EC1E034517 /* Pods-MISS Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MISS Live.release.xcconfig"; path = "Target Support Files/Pods-MISS Live/Pods-MISS Live.release.xcconfig"; sourceTree = "<group>"; };
+		CEE1F2377478A0F4FA9E88C1 /* Pods-MISS Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MISS Live.debug.xcconfig"; path = "Target Support Files/Pods-MISS Live/Pods-MISS Live.debug.xcconfig"; sourceTree = "<group>"; };
 		D124B26C25FB76FA00227E99 /* MISS Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MISS Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D124B26F25FB76FA00227E99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D124B27125FB76FA00227E99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D124B27325FB76FA00227E99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D124B27325FB76FA00227E99 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		D124B27525FB76FC00227E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D124B27825FB76FC00227E99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D124B27B25FB76FC00227E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D124B27D25FB76FC00227E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D124B28225FB76FC00227E99 /* MISS LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MISS LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D124B28625FB76FC00227E99 /* MISS_LiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MISS_LiveTests.swift; sourceTree = "<group>"; };
 		D124B28825FB76FC00227E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D124B28D25FB76FC00227E99 /* MISS LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MISS LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D124B29125FB76FC00227E99 /* MISS_LiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MISS_LiveUITests.swift; sourceTree = "<group>"; };
 		D124B29325FB76FC00227E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D124B2A325FB774500227E99 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D18BD053260C713E006B6846 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/plist/Super Simple/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1A6E07525FC900800FADE79 /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
+		D1A6E0BC25FCBADD00FADE79 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		D1F16E1125FD9EB600F7C263 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		D1F16E1925FDC72100F7C263 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		D1F16E1E25FDC80100F7C263 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D1F16EE625FDDAAC00F7C263 /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		D1F16EEE25FDE8A800F7C263 /* MISS Live.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MISS Live.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1EB03BD6CB63364E297355 /* Pods_MISS_Live.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368A66AE5F49C7BABCBFE131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1F2377478A0F4FA9E88C1 /* Pods-MISS Live.debug.xcconfig */,
+				5E6678E12713B3EC1E034517 /* Pods-MISS Live.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C28EAE42A1B4F518CEF7380E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503361AA99CE03E27947E4E1 /* Pods_MISS_Live.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D124B26325FB76FA00227E99 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				D124B28525FB76FC00227E99 /* MISS LiveTests */,
 				D124B29025FB76FC00227E99 /* MISS LiveUITests */,
 				D124B26D25FB76FA00227E99 /* Products */,
+				368A66AE5F49C7BABCBFE131 /* Pods */,
+				C28EAE42A1B4F518CEF7380E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +138,17 @@
 		D124B26E25FB76FA00227E99 /* MISS Live */ = {
 			isa = PBXGroup;
 			children = (
-				D124B26F25FB76FA00227E99 /* AppDelegate.swift */,
-				D124B27125FB76FA00227E99 /* SceneDelegate.swift */,
-				D124B27325FB76FA00227E99 /* ContentView.swift */,
+				D1F16EEE25FDE8A800F7C263 /* MISS Live.entitlements */,
+				D1F16EE525FDDA8E00F7C263 /* Services */,
+				D124B2AB25FB786700227E99 /* App */,
+				D1F16E1025FD9E9900F7C263 /* Repository */,
+				D124B2A225FB773300227E99 /* Model */,
+				D1A6E07425FC8FDF00FADE79 /* ViewModels */,
+				D124B2AF25FB787500227E99 /* Views */,
 				D124B27525FB76FC00227E99 /* Assets.xcassets */,
 				D124B27A25FB76FC00227E99 /* LaunchScreen.storyboard */,
 				D124B27D25FB76FC00227E99 /* Info.plist */,
+				D18BD053260C713E006B6846 /* GoogleService-Info.plist */,
 				D124B27725FB76FC00227E99 /* Preview Content */,
 			);
 			path = "MISS Live";
@@ -121,7 +165,6 @@
 		D124B28525FB76FC00227E99 /* MISS LiveTests */ = {
 			isa = PBXGroup;
 			children = (
-				D124B28625FB76FC00227E99 /* MISS_LiveTests.swift */,
 				D124B28825FB76FC00227E99 /* Info.plist */,
 			);
 			path = "MISS LiveTests";
@@ -136,6 +179,58 @@
 			path = "MISS LiveUITests";
 			sourceTree = "<group>";
 		};
+		D124B2A225FB773300227E99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D124B2A325FB774500227E99 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D124B2AB25FB786700227E99 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D124B26F25FB76FA00227E99 /* AppDelegate.swift */,
+				D124B27125FB76FA00227E99 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D124B2AF25FB787500227E99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D124B27325FB76FA00227E99 /* TaskListView.swift */,
+				D1F16E1925FDC72100F7C263 /* SignInWithAppleButton.swift */,
+				D1F16E1E25FDC80100F7C263 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1A6E07425FC8FDF00FADE79 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D1A6E07525FC900800FADE79 /* TaskCellViewModel.swift */,
+				D1A6E0BC25FCBADD00FADE79 /* TaskListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D1F16E1025FD9E9900F7C263 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D1F16E1125FD9EB600F7C263 /* TaskRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D1F16EE525FDDA8E00F7C263 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D1F16EE625FDDAAC00F7C263 /* SignInWithAppleCoordinator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D124B29625FB76FC00227E99 /* Build configuration list for PBXNativeTarget "MISS Live" */;
 			buildPhases = (
+				5B53C0A78088162A76E583DB /* [CP] Check Pods Manifest.lock */,
 				D124B26825FB76FA00227E99 /* Sources */,
 				D124B26925FB76FA00227E99 /* Frameworks */,
 				D124B26A25FB76FA00227E99 /* Resources */,
+				F2E455714FC32D91EC6F64C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D124B27C25FB76FC00227E99 /* LaunchScreen.storyboard in Resources */,
+				D18BD054260C713F006B6846 /* GoogleService-Info.plist in Resources */,
 				D124B27925FB76FC00227E99 /* Preview Assets.xcassets in Resources */,
 				D124B27625FB76FC00227E99 /* Assets.xcassets in Resources */,
 			);
@@ -261,14 +359,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B53C0A78088162A76E583DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MISS Live-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E455714FC32D91EC6F64C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MISS Live/Pods-MISS Live-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MISS Live/Pods-MISS Live-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MISS Live/Pods-MISS Live-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D124B26825FB76FA00227E99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F16EE725FDDAAC00F7C263 /* SignInWithAppleCoordinator.swift in Sources */,
+				D1F16E1F25FDC80100F7C263 /* SignInView.swift in Sources */,
+				D1F16E1A25FDC72100F7C263 /* SignInWithAppleButton.swift in Sources */,
+				D124B2A425FB774500227E99 /* Task.swift in Sources */,
 				D124B27025FB76FA00227E99 /* AppDelegate.swift in Sources */,
 				D124B27225FB76FA00227E99 /* SceneDelegate.swift in Sources */,
-				D124B27425FB76FA00227E99 /* ContentView.swift in Sources */,
+				D124B27425FB76FA00227E99 /* TaskListView.swift in Sources */,
+				D1A6E07625FC900800FADE79 /* TaskCellViewModel.swift in Sources */,
+				D1A6E0BD25FCBADD00FADE79 /* TaskListViewModel.swift in Sources */,
+				D1F16E1225FD9EB600F7C263 /* TaskRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +423,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D124B28725FB76FC00227E99 /* MISS_LiveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,10 +579,13 @@
 		};
 		D124B29725FB76FC00227E99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE1F2377478A0F4FA9E88C1 /* Pods-MISS Live.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MISS Live/MISS Live.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "\"MISS Live/Preview Content\"";
 				DEVELOPMENT_TEAM = HMP3AHQM36;
 				ENABLE_PREVIEWS = YES;
@@ -448,16 +597,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "yshkd.MISS-Live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D124B29825FB76FC00227E99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6678E12713B3EC1E034517 /* Pods-MISS Live.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MISS Live/MISS Live.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "\"MISS Live/Preview Content\"";
 				DEVELOPMENT_TEAM = HMP3AHQM36;
 				ENABLE_PREVIEWS = YES;
@@ -469,7 +621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "yshkd.MISS-Live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
